@@ -32,21 +32,24 @@
                                     <constraint firstAttribute="height" constant="200" id="P7Y-Hg-mqe"/>
                                 </constraints>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezN-lG-lo7"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezN-lG-lo7">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="SqX-z8-ziS"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="j5W-eF-Mah" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="HaE-St-G5q"/>
                             <constraint firstItem="j5W-eF-Mah" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="HaX-Ql-U2F"/>
                             <constraint firstItem="zQR-Ub-S5j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KeE-Dq-wfM"/>
-                            <constraint firstAttribute="trailing" secondItem="ezN-lG-lo7" secondAttribute="trailing" id="Pzx-zJ-YUr"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ezN-lG-lo7" secondAttribute="bottom" id="RPv-CN-Bv5"/>
                             <constraint firstItem="ezN-lG-lo7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="X6u-N4-ANU"/>
                             <constraint firstItem="GE2-js-BvW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bCv-Tb-F4u"/>
                             <constraint firstAttribute="trailing" secondItem="zQR-Ub-S5j" secondAttribute="trailing" id="ffE-W6-fBl"/>
                             <constraint firstAttribute="trailing" secondItem="GE2-js-BvW" secondAttribute="trailing" id="gZT-Hq-8WI"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GE2-js-BvW" secondAttribute="bottom" id="j5E-R5-mZr"/>
-                            <constraint firstItem="ezN-lG-lo7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jh9-Sd-Ko2"/>
+                            <constraint firstItem="ezN-lG-lo7" firstAttribute="centerX" secondItem="zQR-Ub-S5j" secondAttribute="centerX" id="mKb-6T-i8k"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zQR-Ub-S5j" secondAttribute="bottom" id="s7C-vL-zZM"/>
                             <constraint firstItem="zQR-Ub-S5j" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zlD-oU-7a9"/>
                         </constraints>
